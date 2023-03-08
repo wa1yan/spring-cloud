@@ -15,7 +15,7 @@ public class Service1Application {
 		SpringApplication.run(Service1Application.class, args);
 	}
 	
-	@GetMapping("/")
+	@GetMapping("/hello")
 	public String hello() {
 		return "Hello from service1";
 	}
